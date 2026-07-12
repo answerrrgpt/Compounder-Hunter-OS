@@ -11,6 +11,8 @@ A persistent investment decision agent for monitoring markets, researching compo
 - `skills/compounder-hunter/` contains the reusable analysis skill.
 - `scripts/validate_state.py` checks that the persistent state remains structurally valid.
 
+The public repository intentionally excludes `state/`, because it can contain holdings, cost basis, liquidity, and historical decisions. Redacted starter files live in `state.example/`; copy them to a private `state/` directory before use. This workspace already contains the user's private initialized state.
+
 ## First conversation
 
 Ask the agent: `读取项目状态，告诉我还缺哪些初始化数据，并生成今天的投资驾驶舱。`
