@@ -1,0 +1,20 @@
+{
+  "schema_version": 1,
+  "as_of": "YYYY-MM-DD",
+  "base_currency": "CNY",
+  "objective": {
+    "horizon_years": 3,
+    "target_return": "2-3x when supported by evidence",
+    "style": ["value", "quality-growth", "right-side-confirmation"],
+    "max_priority_names": 3,
+    "cash_is_valid": true
+  },
+  "markets": [],
+  "preferences": {},
+  "risk": {
+    "portfolio_value": "needs_user_input",
+    "maximum_single_position_pct": "needs_user_input",
+    "maximum_acceptable_drawdown_pct": "needs_user_input",
+    "liquidity_needs": "needs_user_input"
+  }
+}
