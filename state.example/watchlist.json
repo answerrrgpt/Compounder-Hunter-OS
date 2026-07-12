@@ -1,0 +1,8 @@
+{
+  "schema_version": 1,
+  "as_of": "YYYY-MM-DD",
+  "priority": [],
+  "secondary": [],
+  "candidate_pool": [],
+  "rules": {"priority_limit": 3, "promotion_requires": ["complete thesis", "valuation", "invalidation", "catalyst", "entry trigger"]}
+}

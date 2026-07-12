@@ -1,0 +1,7 @@
+{
+  "schema_version": 1,
+  "as_of": "YYYY-MM-DD",
+  "status": "needs_user_input",
+  "cash": {"amount": "needs_user_input", "currency": "CNY"},
+  "positions": []
+}
