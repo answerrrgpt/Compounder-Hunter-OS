@@ -79,3 +79,10 @@ For broad screening, rank at most ten candidates and promote at most three to th
 - New company: follow `workflows/company-research.md`.
 
 Write completed reports under the corresponding `reports/` folder and update structured state only when evidence warrants it.
+
+
+## Voice communication preference
+
+- In voice conversations, speak at approximately **1.5x normal pace**.
+- Keep delivery compact and information-dense, with fewer filler words and shorter pauses.
+- Do not slow back down in later turns unless the user explicitly asks.
