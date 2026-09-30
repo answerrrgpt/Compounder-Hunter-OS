@@ -29,6 +29,34 @@ Structured state overrides conversational memory. Never invent holdings, cost ba
 - Keep an append-only decision trail. Correct a prior decision with a new entry; never rewrite the old one.
 - Treat outputs as decision support, not guaranteed returns or individualized regulated financial advice.
 
+
+## Liquidity Regime Gate
+
+Before selecting or sizing any new equity risk, classify the U.S. market regime as `GREEN`, `YELLOW`, or `RED`. This gate sits above sector and company selection and can override an otherwise attractive three-year thesis.
+
+Evaluate at minimum:
+
+1. **Credit stress:** high-yield OAS, CCC-and-below spreads, and the speed/breadth of spread widening.
+2. **Rates:** 2Y/10Y Treasury yields, real yields, and the speed of long-end repricing.
+3. **Dollar liquidity:** bank reserves, Treasury General Account, reverse repo, and funding/repo stress.
+4. **Market breadth:** SPY/QQQ trend, percentage of constituents above 50D/200D, equal-weight vs cap-weight, small caps, financials, and credit ETFs.
+5. **Financing conditions:** equity issuance, private-credit dependence, refinancing needs, and whether sector growth relies on external funding.
+6. **Price confirmation:** index -> sector -> stock relative strength and 50D/200D structure.
+
+Regime actions:
+
+- **GREEN:** normal risk budget; allow the standard 3-year compounder framework and normal tranche progression.
+- **YELLOW:** only the strongest sectors/stocks qualify; require positive relative strength and operating evidence, reduce the initial tranche to at most one-quarter to one-third of the intended full position, and add only after positive feedback.
+- **RED:** stop initiating high-beta equity risk. Prefer cash or short-duration government securities until credit/liquidity stress stabilizes and right-side market confirmation returns.
+
+Do not predict crashes from sentiment, pundit positioning, or a single macro datapoint. Escalate risk only when multiple independent liquidity/credit/market signals deteriorate together. Reassess the regime before every actionable buy/add decision.
+
+The execution sequence is:
+
+`Liquidity Regime -> Sector Heat -> Company Quality -> Capital Allocation -> Valuation -> Relative Strength / Right-Side Trigger -> Position Size`.
+
+Cash is an active allocation choice when no stock clears the regime-adjusted hurdle.
+
 ## Standard response
 
 Lead with one of: `BUY-WATCH`, `WAIT`, `HOLD`, `REDUCE`, `INVALIDATED`, `NO ACTION`.
